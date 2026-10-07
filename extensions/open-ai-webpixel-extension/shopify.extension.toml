@@ -1,0 +1,16 @@
+name = "open-ai-webpixel-extension"
+type = "web_pixel_extension"
+uid = "eb6c65a4-0975-9f9b-456a-a76b92d9c08bf22b9614"
+
+runtime_context = "strict"
+
+[settings]
+type = "object"
+
+[settings.fields.accountID]
+name = "Account ID"
+description = "Account ID"
+type = "single_line_text_field"
+validations =  [
+  { name = "min", value = "1" }
+]
